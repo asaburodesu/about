@@ -3,179 +3,162 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>あさぶろ</title>
-    <meta
-      name="description"
-      content="あさぶろです。ウニ16.75、オンゲキ20,400奏星、SEGA 3機種全国制覇。行脚と設置店舗マップのプロフィールページ。"
-    >
-    <meta property="og:title" content="あさぶろ">
-    <meta
-      property="og:description"
-      content="ウニ16.75、オンゲキ20,400奏星、SEGA 3機種全国制覇。行脚が終わると行脚が始まる。"
-    >
+    <title>あさぶろ — 音ゲーと、全国行脚。</title>
+    <meta name="description" content="あさぶろ（asaburodesu）のプロフィール。音ゲーと全国行脚、同人サークル「Prime!」での活動、7つの設置店舗マップ。">
+    <meta property="og:title" content="あさぶろ — 音ゲーと、全国行脚。">
+    <meta property="og:description" content="行脚が終わると行脚が始まる。音ゲー、同人サークル「Prime!」での活動、店舗マップ、全国を巡った記録。">
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/chunithm.png">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#profile-title">あさぶろ</a>
-      <nav class="site-nav" aria-label="Page navigation">
-        <a href="#games-title">Arcade</a>
-        <a href="#maps-title">Maps</a>
+    <a class="skip-link" href="#main">本文へスキップ</a>
+
+    <header class="site-header wrap">
+      <a class="brand" href="#profile-title" aria-label="あさぶろ トップへ">asaburodesu<span aria-hidden="true">.</span></a>
+      <nav class="site-nav" aria-label="ページ内メニュー">
+        <a href="#games-title">音ゲー</a>
+        <a href="#circle-title">サークル</a>
+        <a href="#maps-title">店舗マップ</a>
+        <a href="#notes-title">行脚の記録</a>
       </nav>
     </header>
 
-    <main>
-      <section class="hero" aria-labelledby="profile-title">
-        <div class="hero__inner">
-          <p class="eyebrow">Profile</p>
-          <h1 id="profile-title">あさぶろ</h1>
-          <p class="lead">
-            SEGA 3機種を中心に、アキバと全国を行き来して遊んでいます。ウニ16.75、銀ポゼV、オンゲキ20,400奏星。行脚が終わると、また次の行脚が始まるタイプです。
-          </p>
-          <p class="profile-motto">Prime! / 行脚が終わると行脚が始まる</p>
-          <ul class="profile-highlights" aria-label="Profile highlights">
-            <li>マチポケオンゲキーズ王決定戦 ランイベ72位</li>
-            <li>ユメステ第二弾 46位</li>
-            <li>SEGA 3機種全国制覇（燦天下 / 全国制覇 / 全国制覇でらっくす）</li>
-          </ul>
-          <dl class="profile-stats" aria-label="Profile summary">
-            <div>
-              <dt>Base</dt>
-              <dd>東京 / アキバ</dd>
-            </div>
-            <div>
-              <dt>Arcade</dt>
-              <dd>SEGA 3機種</dd>
-            </div>
-            <div>
-              <dt>行脚</dt>
-              <dd>CHUNITHM三周目完了</dd>
-            </div>
-            <div>
-              <dt>Maps</dt>
-              <dd>7種類運用中</dd>
-            </div>
-          </dl>
-          <nav class="links" aria-label="SNS links">
-            <a href="https://twitter.com/asaburodesu">Twitter</a>
-            <a href="https://note.com/asaburodesu">Note</a>
-            <a href="https://github.com/asaburodesu">GitHub</a>
+    <main id="main" class="wrap">
+      <section class="intro" aria-labelledby="profile-title">
+        <div class="intro__body">
+          <p class="overline">音ゲーと、全国行脚。</p>
+          <h1 id="profile-title">あさぶろ<span>です。</span></h1>
+          <p class="motto">行脚が終わると、<br>行脚が始まる。</p>
+          <p class="intro__text">アキバで音ゲーをしたり、全国のゲーセンを巡ったり。<br class="desktop-break">行脚に使える設置店舗マップも作っています。</p>
+          <nav class="social-links" aria-label="SNS・プロフィール">
+            <a href="https://x.com/asaburodesu">X <span aria-hidden="true">↗</span></a>
+            <a href="https://note.com/asaburodesu">note <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/asaburodesu">GitHub <span aria-hidden="true">↗</span></a>
           </nav>
         </div>
+        <figure class="intro__photo">
+          <img src="assets/journey-arcade.jpg" width="1200" height="900" alt="行脚中に訪れたアピナ長岡店に並ぶCHUNITHMの筐体" fetchpriority="high">
+          <figcaption>
+            <span><time datetime="2024-12-14">2024.12.14</time>　新潟 / アピナ長岡</span>
+            <a href="https://note.com/asaburodesu/n/n7dd0a2f3f947">note <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
       </section>
 
-      <section class="section" aria-labelledby="games-title">
-        <div class="section__heading">
-          <p class="eyebrow">Arcade</p>
-          <h2 id="games-title">機種別詳細</h2>
+      <section class="section games-section" aria-labelledby="games-title">
+        <div class="section-heading">
+          <h2 id="games-title">音ゲーのこと</h2>
         </div>
-
-        <div class="game-list">
-          <article class="game game--chunithm">
-            <div class="game__media">
-              <img src="assets/chunithm.png" alt="チュウニズムのプレイヤーデータ画面">
-            </div>
-            <div class="game__body">
-              <p class="game__label">CHUNITHM</p>
-              <h3>チュウニズム</h3>
-              <dl class="stats">
-                <div>
-                  <dt>レート</dt>
-                  <dd>16.65くらい</dd>
-                </div>
-                <div>
-                  <dt>MAX レート</dt>
-                  <dd>16.75</dd>
-                </div>
-              </dl>
-              <p>CRYSTALくらいから始めた。半年くらい停滞していますｗ</p>
-              <a class="text-link" href="https://x.com/asaburodesu/status/1870472758775447651">
-                行脚三周目の投稿
-              </a>
-            </div>
-          </article>
-
-          <article class="game game--ongeki">
-            <div class="game__media">
-              <img src="assets/ongeki.png" alt="オンゲキのプレイヤーデータ画面">
-            </div>
-            <div class="game__body">
-              <p class="game__label">ONGEKI</p>
-              <h3>オンゲキ</h3>
-              <dl class="stats">
-                <div>
-                  <dt>レート</dt>
-                  <dd>16.00くらい</dd>
-                </div>
-                <div>
-                  <dt>MAX レート</dt>
-                  <dd>16.06</dd>
-                </div>
-              </dl>
-              <p>REDくらいから始めた。ある時期いきなり爆伸びしてレート16に来ました。そこからは伸びてませんｗ</p>
-            </div>
-          </article>
-
-          <article class="game game--maimai">
-            <div class="game__media">
-              <img src="assets/maimai.png" alt="maimaiのプレイヤーデータ画面">
-            </div>
-            <div class="game__body">
-              <p class="game__label">maimai</p>
-              <h3>maimai</h3>
-              <p>ほぼやってない。</p>
-            </div>
-          </article>
+        <div class="games-layout">
+          <div class="games-intro">
+            <p>CHUNITHM・オンゲキ・maimaiを中心に遊んでいます。ツアマスとポラリスコードも全国制覇しました。</p>
+          </div>
+          <div class="game-records">
+            <dl class="ratings">
+              <div>
+                <dt>CHUNITHM</dt>
+                <dd class="rating">16.75</dd>
+                <dd class="rating-detail">銀ポゼ Ⅴ / 燦天下</dd>
+              </div>
+              <div>
+                <dt>オンゲキ</dt>
+                <dd class="rating">20.400</dd>
+                <dd class="rating-detail">奏星 / 全国制覇</dd>
+              </div>
+              <div>
+                <dt>maimai</dt>
+                <dd class="rating rating--text">全国制覇<br>でらっくす</dd>
+              </div>
+            </dl>
+            <dl class="record-lines">
+              <div>
+                <dt>CHUNITHM 所属チーム</dt>
+                <dd>行脚が終わると行脚が始まる</dd>
+              </div>
+              <div>
+                <dt>ほかの全国制覇</dt>
+                <dd>アイドルマスターツアーズ / ポラリスコード</dd>
+              </div>
+              <div>
+                <dt>オンゲキ ランイベ</dt>
+                <dd>マチポケオンゲキーズ王決定戦 <strong>72位</strong><br>ユメステ第二弾 <strong>46位</strong></dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </section>
 
-      <section class="section map-section" aria-labelledby="maps-title">
-        <div class="section__heading">
-          <p class="eyebrow">Maps</p>
-          <h2 id="maps-title">設置店舗見れるサイト</h2>
-          <p>
-            行脚にも使えるかもしれない設置店舗・店舗マップを7種類作ってます。毎日更新しているので常に最新情報です。
-          </p>
+      <section class="section circle-section" aria-labelledby="circle-title">
+        <div class="section-heading">
+          <h2 id="circle-title">サークル活動</h2>
         </div>
+        <div class="circle-layout">
+          <div>
+            <h3 class="circle-name">Prime!</h3>
+            <p>prime soleilと2人で活動している同人サークルです。取材・制作・システムを担当しています。</p>
+          </div>
+          <div class="circle-description">
+            <p>オンゲキのキャラクターや名前にちなんだ場所を訪ねる「オンゲキ（嘘）聖地巡礼」シリーズを取材・執筆し、コミケなどで頒布しています。</p>
+            <p>サークルの会計・在庫管理に使うPOSレジも自作し、イベントで運用しています。</p>
+            <p>2026年8月には、日向千夏の応援広告「Pure Marble -未来彩る君へ-」を2人で企画し、日向市駅に掲出しました。</p>
+          </div>
+        </div>
+      </section>
 
-        <div class="map-links" aria-label="設置店舗マップ">
-          <a href="https://asaburodesu.github.io/chu_map/">
-            <span>CHUNITHM</span>
-            <strong>チュウニズム</strong>
-          </a>
-          <a href="https://asaburodesu.github.io/geki_map/">
-            <span>ONGEKI</span>
-            <strong>オンゲキ</strong>
-          </a>
-          <a href="https://asaburodesu.github.io/mai_map/">
-            <span>maimai</span>
-            <strong>maimai</strong>
-          </a>
-          <a href="https://asaburodesu.github.io/gigo_map/">
-            <span>GiGO</span>
-            <strong>GiGO店舗</strong>
-          </a>
-          <a href="https://asaburodesu.github.io/imas_map/">
-            <span>THE IDOLM@STER</span>
-            <strong>アイドルマスターツアーズ</strong>
-          </a>
-          <a href="https://asaburodesu.github.io/plrs_map/">
-            <span>POLARIS CHORD</span>
-            <strong>ポラリスコード</strong>
-          </a>
-          <a href="https://asaburodesu.github.io/taiko_map/">
-            <span>TAIKO</span>
-            <strong>太鼓の達人</strong>
-          </a>
+      <section class="section maps-section" aria-labelledby="maps-title">
+        <div class="section-heading">
+          <h2 id="maps-title">つくった店舗マップ</h2>
+          <p class="section-aside">全7種類</p>
         </div>
+        <div class="maps-layout">
+          <div class="maps-intro">
+            <p>行脚用に作った設置店舗マップです。音ゲーの設置店やGiGOの店舗を、都道府県や現在地から探せます。</p>
+            <p>店舗データは定期的に更新しています。</p>
+            <a class="text-link" href="https://github.com/asaburodesu">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <ul class="map-list" aria-label="設置店舗マップへのリンク">
+            <li><a href="https://asaburodesu.github.io/chu_map/"><span class="map-number" aria-hidden="true">01</span><span class="map-name">CHUNITHM<small>チュウニズム</small></span><span class="map-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://asaburodesu.github.io/geki_map/"><span class="map-number" aria-hidden="true">02</span><span class="map-name">オンゲキ<small>ONGEKI</small></span><span class="map-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://asaburodesu.github.io/mai_map/"><span class="map-number" aria-hidden="true">03</span><span class="map-name">maimai<small>でらっくす</small></span><span class="map-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://asaburodesu.github.io/imas_map/"><span class="map-number" aria-hidden="true">04</span><span class="map-name">アイドルマスターツアーズ<small>THE IDOLM@STER TOURS</small></span><span class="map-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://asaburodesu.github.io/plrs_map/"><span class="map-number" aria-hidden="true">05</span><span class="map-name">ポラリスコード<small>POLARIS CHORD</small></span><span class="map-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://asaburodesu.github.io/taiko_map/"><span class="map-number" aria-hidden="true">06</span><span class="map-name">太鼓の達人<small>TAIKO NO TATSUJIN</small></span><span class="map-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://asaburodesu.github.io/gigo_map/"><span class="map-number" aria-hidden="true">07</span><span class="map-name">GiGO<small>GiGOの店舗を探す</small></span><span class="map-arrow" aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </section>
 
-        <div class="map-previews">
-          <img src="assets/map-chunithm.png" alt="チュウニズム設置店舗マップのスクリーンショット">
-          <img src="assets/map-ongeki.png" alt="オンゲキ設置店舗マップのスクリーンショット">
+      <section class="section notes-section" aria-labelledby="notes-title">
+        <div class="section-heading">
+          <h2 id="notes-title">行脚の記録</h2>
+          <a class="text-link" href="https://note.com/asaburodesu">note を読む <span aria-hidden="true">↗</span></a>
         </div>
+        <article class="featured-note">
+          <figure class="note-photo">
+            <a href="https://note.com/asaburodesu/n/n7dd0a2f3f947" aria-label="CHUNITHM 全国行脚3周目をnoteで読む">
+              <img src="assets/journey-train.jpg" width="1200" height="900" alt="全国行脚の途中、福島駅の新幹線ホームから北へ向かう" loading="lazy" decoding="async">
+            </a>
+            <figcaption><time datetime="2024-12-13">2024.12.13</time>　福島駅 / 新青森へ</figcaption>
+          </figure>
+          <div class="note-body">
+            <p class="note-date"><time datetime="2025-01-27">2025.01.27</time> 公開</p>
+            <h3><a href="https://note.com/asaburodesu/n/n7dd0a2f3f947">CHUNITHM<br>全国行脚3周目</a></h3>
+            <p>2024年12月12日〜21日の10日間で、47都道府県を回って「燦・天下統一」を達成しました。移動ルートや訪問したゲーセンをnoteにまとめています。</p>
+            <a class="text-link" href="https://note.com/asaburodesu/n/n7dd0a2f3f947">旅の記録を読む <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <a class="other-note" href="https://note.com/asaburodesu/n/n97aee3f6b171">
+          <time datetime="2024-12-22">2024.12.22</time>
+          <span>3周目旅程（速報版）</span>
+          <span aria-hidden="true">↗</span>
+        </a>
       </section>
     </main>
+
+    <footer class="site-footer wrap">
+      <div><a class="brand" href="#profile-title">asaburodesu<span aria-hidden="true">.</span></a><p>行脚が終わると行脚が始まる。</p></div>
+      <div class="footer-meta"><a href="https://x.com/asaburodesu">X <span aria-hidden="true">↗</span></a></div>
+    </footer>
   </body>
 </html>
