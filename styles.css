@@ -69,7 +69,9 @@ p, dt, dd, h1, h2, h3, a { overflow-wrap: anywhere; }
   align-items: center;
   padding-block: 76px 84px;
 }
-.overline { margin-bottom: 20px; font-size: 0.875rem; color: var(--muted); }
+.intro__identity { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; }
+.profile-icon { width: 80px; height: 80px; flex-shrink: 0; }
+.overline { margin-bottom: 6px; font-size: 0.875rem; color: var(--muted); }
 h1 { font-size: clamp(2.5rem, 4.4vw, 4rem); font-weight: 800; letter-spacing: -0.055em; }
 h1 span { font-size: 0.6em; font-weight: 500; letter-spacing: 0; }
 .motto { margin-top: 27px; font-family: var(--serif); font-size: clamp(1.6rem, 2.8vw, 2.5rem); font-weight: 600; line-height: 1.65; letter-spacing: 0.035em; }
@@ -158,7 +160,8 @@ h3 a:hover { text-decoration: underline; }
   .site-nav { width: 100%; gap: 24px; }
   .site-nav a { font-size: 0.8125rem; }
   .intro { grid-template-columns: 1fr; gap: 36px; padding-block: 40px 48px; }
-  .overline { margin-bottom: 12px; }
+  .intro__identity { gap: 16px; }
+  .profile-icon { width: 64px; height: 64px; }
   h1 { font-size: clamp(2.6rem, 9vw, 3.75rem); }
   .motto { margin-top: 20px; font-size: clamp(1.75rem, 5.7vw, 2.3rem); }
   .intro__text { margin-top: 20px; }
